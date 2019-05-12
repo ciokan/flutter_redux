@@ -10,6 +10,14 @@ environment:
 dependencies:
   meta: ">=1.1.1 <2.0.0"
   redux: ">=3.0.0 <4.0.0"
+  flutter_web:
+    git:
+      url: https://github.com/flutter/flutter_web
+      path: packages/flutter_web
+  flutter_web_ui:
+    git:
+      url: https://github.com/flutter/flutter_web
+      path: packages/flutter_web_ui
 
 dev_dependencies:
   mockito: ^4.0.0
