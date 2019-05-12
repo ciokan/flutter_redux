@@ -2,7 +2,7 @@ library flutter_redux;
 
 import 'dart:async';
 
-import 'package:flutter/widgets.dart';
+import 'package:flutter_web/widgets.dart';
 import 'package:meta/meta.dart';
 import 'package:redux/redux.dart';
 
